@@ -1,0 +1,100 @@
+# ============================================================
+# CYBERSECURITY LABS - DO NOT COMMIT SENSITIVE INFORMATION
+# ============================================================
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+secrets/
+credentials/
+private/
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Tokens / credentials / authentication material
+*token*
+*credentials*
+*password*
+*passwd*
+*apikey*
+*api_key*
+*secret*
+
+# Burp Suite sensitive/session data
+*.burp
+*.burp-project
+burp-state/
+burp-sessions/
+
+# Packet captures
+*.pcap
+*.pcapng
+*.cap
+
+# Raw logs
+*.log
+logs/raw/
+raw-logs/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Dumps / memory / binary captures
+*.dump
+*.dmp
+*.core
+
+# Archives (may accidentally contain sensitive material)
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Virtual machines / disks
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+
+# SSH / GPG
+.ssh/
+.gnupg/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
