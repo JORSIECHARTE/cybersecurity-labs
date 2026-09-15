@@ -34,7 +34,6 @@ Attacker VM
     |
     v
 Destination Web Server
-
 ```
 
 ## Procedure
@@ -133,11 +132,9 @@ Web applications should implement:
 
 ## Evidence
 
-Screenshots used as evidence are stored in the `screenshots/` directory.
+This public version focuses on technical documentation. Screenshots from the original laboratory exercise are intentionally excluded from the repository.
 
-Only reviewed and sanitized screenshots should be published.
-
-Raw authentication data, session cookies, credentials, private keys, personal information, and other sensitive material must not be included.
+Future evidence included in this repository will be selected and reviewed during each laboratory to ensure that no sensitive or unnecessary information is published.
 
 ## Ethical Scope
 
